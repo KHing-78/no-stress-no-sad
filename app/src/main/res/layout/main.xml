@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgn">
+
+
+<HorizontalScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        >
+
+        <pl.droidsonroids.gif.GifImageButton
+            android:id="@+id/stressButton"
+            android:layout_width="280dp"
+            android:layout_height="400dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="95dp"
+            android:background="@drawable/stress" />
+
+        <pl.droidsonroids.gif.GifImageButton
+            android:id="@+id/sadButton2"
+            android:layout_width="280dp"
+            android:layout_height="400dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="95dp"
+            android:background="@drawable/sad" />
+
+        <pl.droidsonroids.gif.GifImageButton
+            android:id="@+id/stresstestButton3"
+            android:layout_width="280dp"
+            android:layout_height="400dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="95dp"
+            android:background="@drawable/stresstest" />
+
+        <pl.droidsonroids.gif.GifImageButton
+            android:id="@+id/sadtestButton4"
+            android:layout_width="280dp"
+            android:layout_height="400dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="95dp"
+            android:background="@drawable/sadtest" />
+
+        <pl.droidsonroids.gif.GifImageButton
+            android:id="@+id/contactButton5"
+            android:layout_width="280dp"
+            android:layout_height="400dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="95dp"
+            android:background="@drawable/contact" />
+
+        <pl.droidsonroids.gif.GifImageButton
+            android:id="@+id/feelbetterButton6"
+            android:layout_width="280dp"
+            android:layout_height="400dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginTop="95dp"
+            android:background="@drawable/feelbetter" />
+
+
+    </LinearLayout>
+</HorizontalScrollView>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="510dp"
+
+        >
+
+        <Button
+            android:id="@+id/allmenu"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="50dp"
+            android:layout_marginVertical="50dp"
+            android:maxWidth="50dp"
+            android:maxHeight="50dp"
+            android:background="@drawable/allmenu"></Button>
+
+    </RelativeLayout>
+
+</RelativeLayout>

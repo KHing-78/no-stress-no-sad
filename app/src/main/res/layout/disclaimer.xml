@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/disclaimer">
+
+    <ImageView
+        android:id="@+id/im"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:maxHeight="100dp"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/alert"
+        />
+    <ScrollView
+        android:id="@+id/sc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="@+id/im"
+        android:layout_marginTop="180dp"
+        android:layout_marginBottom="150dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="50dp"
+                android:textSize="16dp"
+                android:textColor="#ffff"
+                android:textFontWeight="10"
+                android:text="ข้อตกลงและเงื่อนไขการใช้งานแอพพลิเคชั่น\n\n     แอพพลิเคชั่น NO Stress NO Sad จัดทำโดยนักศึกษาพยาบาลศาสตรบัณฑิตชั้นปีที่ 4 ในรายวิชา261491 โครงการนวัตกรรมทางการพยาบาล (Nursing Innovation Projects) ปีการศึกษา 2562
+เป็นแอพพลิเคชั่นเกี่ยวกับการคัดกรองความเครียดและภาวะซึมเศร้าโดยมีเนื้อหาเกี่ยวกับความเครียดภาวะซึมเศร้า แบบประเมินความเครียดและภาวะซึมเศร้า การเผชิญปัญหารวมถึงช่องทางการติดต่อซึ่งมีวัตถุประสงค์เพื่อพัฒนานวัตกรรม
+&quot;การศึกษาความเป็นไปได้ของการใช้แอพพลิเคชั่นเพื่อคัดกรองการเกิดความเครียดและภาวะซึมเศร้า&quot;และเพื่อประเมินผลของการใช้งานแอพพลิเคชั่น ได้แก่ การคัดกรอง ความรู้และประโยชน์ที่จะได้รับเกี่ยวกับความเครียดและภาวะซึมเศร้า
+\n      เนื้อหาที่ถูกนำเสนอในที่นี้ มีไว้เพื่อให้ความรู้แก่ผู้ใช้บริการข้อมูลทางสุขภาพและการแพทย์ซึ่งอาจส่งผลต่อการดำเนินชีวิตประจำวันได้ จึงไม่ควรนำข้อมูลด้านเนื้อหาจากแอพพลิเคชั่นไปใช้โดยตรงหรือใช้แทนคำแนะนำ การวินิจฉัย หรือการรักษาจากแพทย์
+\n      แอพพลิเคชั่นและการให้บริการภายในแอปนี้ ไม่ได้สร้างขึ้นเพื่อใช้สร้างกิจปฏิบัติทางการแพทย์การพยาบาล การให้คำแนะนำทางสุขภาพ การวินิจฉัย หรือการรักษาในระดับมืออาชีพแต่อย่างใดผู้ใช้บริการควรปรึกษากับผู้ให้บริการทางการแพทย์ในการวินิจฉัย การรักษารวมไปถึงความต้องการทางการแพทย์ที่จำเพาะเจาะจงเราแนะนำให้ผู้ใช้บริการรับคำแนะนำจากแพทย์หรือผู้ให้บริการทางการแพทย์ที่มีคุณสมบัติเหมาะสมเสมอเมื่อมีข้อสงสัยส่วนบุคคลทางด้านสุขภาพหรือภาวะอาการเจ็บป่วย หากคุณมีปัญหา
+\n      คณะผู้จัดทำขอปฏิเสธการรับประกันใด ๆ ไม่ว่าจะโดยชัดแจ้งหรือโดยนัยและไม่ขอยอมรับความเสียหายหรือข้อบกพร่องใด ๆ อันอาจเกิดจากการใช้ข้อมูลผิดพลาดหรือไม่สมบูรณ์แอพพลิเคชั่นนี้เป็นเพียงการให้คำแนะนำและคัดกรองความเครียดและภาวะซึมเศร้าไม่สามารถใช้แทนการรักษาได้ และจะไม่รับผิดชอบต่อความเสียหายใด ๆ ความสูญเสีย ค่าใช้จ่าย การเรียกร้องหรือความต้องการใดๆ ไม่ว่าจะโดยตรง โดยอ้อม การชดเชยหรือผลเสียหายที่เกิดขึ้น
+\n      เครื่องหมายการค้าทั้งหมด ลิขสิทธิ์ และสิทธิ์ในทรัพย์สินทางปัญญาอื่นๆ ในเนื้อหาสาระต่างๆที่มีอยู่ในแอพพลิเคชั่นนี้พร้อมกับโค้ดซอฟต์แวร์พื้นฐานเป็นกรรมสิทธิ์ของเราโดยตรงหรือของผู้ออกใบอนุญาตของเราหากไม่ได้รับอนุญาตเป็นลายลักษณ์อักษรล่วงหน้าจากเรา คุณจะต้องไม่คัดลอก แก้ไข ดัดแปลง เผยแพร่แจกจ่าย ขาย หรือถ่ายโอนข้อมูลใดๆ ในแอพพลิเคชั่นนี้หรือโค้ดซอฟต์แวร์พื้นฐานไม่ว่าทั้งหมดหรือเป็นบางส่วน
+\n      ในแอพพลิเคชั่นอาจเชื่อมโยงไปที่ภายนอกที่ไม่ได้รับผิดชอบทางคณะผู้จัดทำจะไม่ยอมรับผิดชอบต่อเนื้อหาและค่าใช้จ่ายที่อาจเกิดขึ้นจากเว็ปไซต์นั้นๆ" />
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+    <Button
+        android:id="@+id/agree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:layout_centerHorizontal="true"
+        android:text="ยอมรับข้อตกลง"
+        />
+
+</RelativeLayout>

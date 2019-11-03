@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgn">
+
+    <Button
+        android:id="@+id/backToMain"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="left"
+        android:layout_margin="5dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/backbut"
+        android:scaleType="fitXY" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/scrollView1"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="60dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="40dp"
+                android:background="@drawable/topic"
+                android:text="ช่องทางการติดต่อ"
+                android:textAlignment="center"
+                android:textColor="#ffff"
+                android:textSize="36sp"></TextView>
+
+            <Button
+                android:id="@+id/callbth1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_weight="10"
+                android:background="@drawable/topic"
+                android:text="สายด่วนสุขภาพจิต"
+                android:textAlignment="viewStart"
+                android:textColor="#FFFFFF"
+                android:textSize="24dp"
+                android:onClick="callPhone"
+                android:visibility="visible"></Button>
+
+            <Button
+                android:id="@+id/callbth2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_weight="10"
+                android:background="@drawable/topic"
+                android:text="สายด่วนกรมสุขภาพจิต"
+                android:textAlignment="viewStart"
+                android:textColor="#FFFFFF"
+                android:textSize="24dp"
+                android:visibility="visible"></Button>
+
+            <Button
+                android:id="@+id/callbth3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_weight="10"
+                android:background="@drawable/topic"
+                android:text="โรงพยาบาลศรีนครินทร์"
+                android:textAlignment="viewStart"
+                android:textColor="#FFFFFF"
+                android:textSize="24dp"
+                android:visibility="visible"></Button>
+
+            <Button
+                android:id="@+id/callbth4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_weight="10"
+                android:background="@drawable/topic"
+                android:text="หน่วยบริการปฐมภูมิ"
+                android:textAlignment="viewStart"
+                android:textColor="#FFFFFF"
+                android:textSize="24dp"
+                android:visibility="visible"></Button>
+
+            <Button
+                android:id="@+id/callbth5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_weight="10"
+                android:background="@drawable/topic"
+                android:text="samaritans.thailand"
+                android:textAlignment="viewStart"
+                android:textColor="#FFFFFF"
+                android:textSize="24dp"
+                android:visibility="visible"></Button>
+
+            <Button
+                android:id="@+id/callbth6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_weight="10"
+                android:background="@drawable/topic"
+                android:text="เพจกรมสุขภาพจิต"
+                android:textAlignment="viewStart"
+                android:textColor="#FFFFFF"
+                android:textSize="24dp"
+                android:visibility="visible"></Button>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

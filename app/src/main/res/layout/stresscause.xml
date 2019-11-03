@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:fillViewport="true"
+    android:scaleType="fitXY"
+    android:background="@drawable/bgn">
+
+    <Button
+        android:id="@+id/backToStress"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="10dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/backbut"
+        android:scaleType="fitXY" />
+
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_margin="10dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/exit"
+        android:scaleType="fitXY" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/scrollView1"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. สาเหตุ"
+                android:layout_marginTop="40dp"
+                android:layout_gravity="center"
+                android:background="@drawable/topic"
+                android:textColor="#ffff"
+                android:textSize="36dp"></TextView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:maxWidth="500dp"
+                android:maxHeight="250dp"
+                android:layout_margin="30dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/stresscause" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#ffff"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginBottom="20dp"
+                android:textSize="20dp"
+                android:text="แบ่งออกเป็น 3 ด้าน(แผ จันทร์สุข และ ฉวีวรรณ สัตยธรรม, 2556)ได้แก่
+\n      1.ร่างกาย สาเหตุทางกาย:ความเจ็บปวด การบาดเจ็บ การติดเชื้อ สารเสพติดโรคทางพันธุกรรม พัฒนาการตามวัย: การแข่งขันการปรับตัวในมหาวิทยาลัย การศึกษา การเลือกคู่ครอง ความกดดันต่างๆ
+ \n     2.จิตใจ การสูญเสีย หรือกลัวจะสูญเสียสิ่งมีค่า เช่น คนรัก การงาน อวัยวะร่างกาย ภาวะวิกฤติ เช่น ความเจ็บปวดจากการบาดเจ็บ สถานการณ์ที่ต้องแข่งขัน กลัวผี กลัวตาย ไม่ได้รับการตอบสนองตามความต้องการ เช่น ปัญหาการเงินไม่ได้รับความสนใจ
+\n      3.สิ่งแวดล้อม ความเชื่อ ประเพณีละวัฒนธรรมของสังคม สัมพันธภาพและลักษณะของครอบครัว ปัญหาเศรษฐกิจ มลพิษจากสิ่งแวดล้อม เหตุการณ์อื่น ๆ เช่น อุบัติเหตุ ไฟไหม้ น้ำท่วม"></TextView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

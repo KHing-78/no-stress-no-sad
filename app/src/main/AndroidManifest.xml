@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="nursing.depression.no_stress_no_sad_app"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-permission android:name="android.permision.CALL_PHONE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="nursing.depression.no_stress_no_sad_app.Splash"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="nursing.depression.no_stress_no_sad_app.StressTestStart">
+        </activity>
+        <activity android:name="nursing.depression.no_stress_no_sad_app.StressTestInit">
+        </activity>
+        <activity android:name="nursing.depression.no_stress_no_sad_app.StressTestQuiz">
+        </activity>
+        <activity android:name="nursing.depression.no_stress_no_sad_app.StressResultOneAndTwo">
+        </activity>
+        <activity android:name="nursing.depression.no_stress_no_sad_app.StressResultThree">
+        </activity>
+        <activity android:name="nursing.depression.no_stress_no_sad_app.DepressTestStart"/>
+        <activity android:name="nursing.depression.no_stress_no_sad_app.DepressTestQuiz"/>
+        <activity android:name="nursing.depression.no_stress_no_sad_app.DepressShowResultNoResult"/>
+        <activity android:name="nursing.depression.no_stress_no_sad_app.DepressShowResult"/>
+        <activity android:name="nursing.depression.no_stress_no_sad_app.DepressTestInit"/>
+        <activity android:name="nursing.depression.no_stress_no_sad_app.DepressTestTwoQ"/>
+
+        <activity android:name="nursing.depression.no_stress_no_sad_app.MainActivity"/>
+        <activity android:name="nursing.depression.no_stress_no_sad_app.Infomation"/>
+        <activity android:name="nursing.depression.no_stress_no_sad_app.Stresscause"/>
+        <activity android:name="nursing.depression.no_stress_no_sad_app.StressEffect"/>
+        <activity android:name="nursing.depression.no_stress_no_sad_app.Coping"/>
+        <activity android:name="nursing.depression.no_stress_no_sad_app.Conscious"/>
+        <activity android:name="nursing.depression.no_stress_no_sad_app.Traincon"/>
+        <activity android:name="nursing.depression.no_stress_no_sad_app.BodyScan"/>
+        <activity android:name="nursing.depression.no_stress_no_sad_app.Focusing"/>
+        <activity android:name="nursing.depression.no_stress_no_sad_app.Massage"/>
+        <activity android:name="nursing.depression.no_stress_no_sad_app.Breathe"/>
+        <activity android:name="nursing.depression.no_stress_no_sad_app.Technique"/>
+        <activity android:name="nursing.depression.no_stress_no_sad_app.Manage"/>
+        <activity android:name="nursing.depression.no_stress_no_sad_app.Awareness"/>
+        <activity android:name="nursing.depression.no_stress_no_sad_app.PositiveThink"/>
+        <activity android:name="nursing.depression.no_stress_no_sad_app.Consult"/>
+        <activity android:name="nursing.depression.no_stress_no_sad_app.Skill"/>
+        <activity android:name="nursing.depression.no_stress_no_sad_app.Controll"/>
+        <activity android:name="nursing.depression.no_stress_no_sad_app.Review"/>
+        <activity android:name="nursing.depression.no_stress_no_sad_app.Prepare"/>
+        <activity android:name="nursing.depression.no_stress_no_sad_app.ControllMine"/>
+        <activity android:name="nursing.depression.no_stress_no_sad_app.Rate"/>
+        <activity android:name="nursing.depression.no_stress_no_sad_app.Contact"/>
+        <activity android:name="nursing.depression.no_stress_no_sad_app.AllMenu"/>
+        <activity android:name="nursing.depression.no_stress_no_sad_app.YouTube"/>
+        <activity android:name="nursing.depression.no_stress_no_sad_app.WhatIsSad"/>
+        <activity android:name="nursing.depression.no_stress_no_sad_app.Meaning"/>
+        <activity android:name="nursing.depression.no_stress_no_sad_app.Sadcause"/>
+        <activity android:name="nursing.depression.no_stress_no_sad_app.Sadeffect"/>
+        <activity android:name="nursing.depression.no_stress_no_sad_app.Disclaimer"/>
+
+    </application>
+
+</manifest>

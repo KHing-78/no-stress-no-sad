@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:fillViewport="true"
+    android:scaleType="fitXY"
+    android:background="@drawable/bgn">
+
+    <ImageButton
+        android:id="@+id/backToConscious"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="left"
+        android:layout_margin="5dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/backbut"
+        android:scaleType="fitXY" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/scrollView1"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:background="@drawable/topic"
+                android:text="ฝึก Body scan"
+                android:textAlignment="center"
+                android:textColor="#ffff"
+                android:textSize="36dp"></TextView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:layout_margin="30dp"
+                android:maxWidth="500dp"
+                android:maxHeight="200dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/conscious" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#ffff"
+                android:textSize="18dp"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginBottom="20dp"
+                android:text="      - นั่งให้หลังตรง หลับตาเบาๆ เริ่มสังเกตความรู้สึกที่เกิดขึ้นตามส่วนต่างๆ ของร่างกายใช้เวลาประมาณ 10 นาที ตั้งแต่ศีรษะจรดปลายเท้าทีละส่วน
+                \n\n      - ให้รับรู้ลมหายใจไปด้วยและสังเกตบริเวณนั้นว่ามีความรู้สึกอะไรเกิดขึ้นบ้าง เช่น หนัก เบา ร้อน เย็น อ่อน แข็ง คัน ชื้น เป็นต้น ถ้าไม่มีความรู้สึกรุนแรงให้สำรวจร่ายกายต่อไป
+                \n\n      - หากมีความรู้สึกรุนแรงอยากตอบโต้ เช่น เกา หรือขยับให้เฝ้าสังเกตอาการนั้นใน 1 นาที ไม่ตอบโต้ใดๆ ให้มีสติรู้ลมหายใจไปด้วย เพื่อดูการเปลี่ยนแปลงที่เกิดขึ้นแล้วเลื่อนความสนใจไปที่ส่วนอื่นของร่างกาย
+                \n\n      - สำรวจตั้งแต่ศีรษะจรดปลายเท้า แล้วให้นั่งหลับตาสังเกตลมหายใจต่อสักครู่ แล้วลืมตาขึ้นช้าๆทำสมาธิแบบลืมตาอีก 1 นาที"
+                ></TextView>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

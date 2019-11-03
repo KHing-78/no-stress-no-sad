@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:fillViewport="true"
+    android:scaleType="fitXY"
+    android:background="@drawable/bgn">
+
+    <Button
+        android:id="@+id/backToWhat"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="10dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/backbut"
+        android:scaleType="fitXY" />
+
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_margin="10dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/exit"
+        android:scaleType="fitXY" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/scrollView1"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3. ผลกระทบ"
+                android:layout_marginTop="40dp"
+                android:layout_gravity="center"
+                android:background="@drawable/topic"
+                android:textColor="#ffff"
+                android:textSize="36dp"></TextView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:maxWidth="500dp"
+                android:maxHeight="500dp"
+                android:layout_margin="30dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/sadeffect" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#ffff"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginBottom="20dp"
+                android:textSize="20dp"
+                android:text="1. ด้านร่างกาย\n- รู้สึกอ่อนเพลีย\n- ไม่มีเรี่ยวแรง\n- มีปัญหาด้านการนอน มักจะหลับยาก
+\n- รู้สึกเบื่ออาหาร น้ำหนักลดลงมากภายใน 1 เดือน\n- มีอาการท้องผูก อืดแน่นท้อง ปากคอแห้ง\n- มีอาการปวดหัว ปวดเมื่อยตามตัว
+\n\n2. ด้านจิตใจและอารมณ์\n     - อารมณ์เปลี่ยนแปลงไป ที่พบบ่อยคือ เศร้าสร้อย หดหู่ สะเทือนใจง่ายร้องไห้บ่อยในเรื่องเล็กๆน้อยๆบางคนอาจมีความรู้สึกเบื่อหน่ายไปหมดทุกสิ่งทุกอย่างสิ่งที่เดิมตนเคยทำแล้วเพลินใจหรือสบายใจก็ไม่อยากทำหรือทำแล้วก็ไม่ทำให้สบายใจขึ้นบางคนอาจมีอารมณ์หงุดหงิดฉุนเฉียวง่าย กลายเป็นคนอารมณ์ร้าย
+\n      - ความคิดเปลี่ยนไป กลายเป็นคนไม่มั่นใจตนเองไปรู้สึกว่าตนเองไร้ความสามารถ ไร้คุณค่า มีความคับข้องใจ และเริ่มคิดอยากตาย
+\n      - สมาธิความจำแย่ลง หลงลืมง่าย จิตใจเหม่อลอยบ่อย ทำอะไรไม่ได้นานและประสิทธิภาพในการทำงานลดลง
+\n\n3. ด้านสังคม\n- จะเก็บตัวมากขึ้น\n- มีพฤติกรรมแยกตัว ไม่อยากเข้าร่วมกิจกรรมต่างๆทำให้ความสัมพันธ์กับคนรอบข้างเปลี่ยนไป\n(มาโนช หล่อตระกูล, 2561)"></TextView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

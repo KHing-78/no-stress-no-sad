@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@drawable/bgn">
+
+    <Button
+        android:id="@+id/backToMainPage"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="left"
+        android:layout_margin="10dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/backbut"
+        android:scaleType="fitXY" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/scrollView1"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ซึมเศร้าคืออะไร?"
+                android:layout_marginTop="50dp"
+                android:layout_gravity="center"
+                android:textColor="#ffff"
+                android:textSize="48dp"></TextView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:maxWidth="400dp"
+                android:maxHeight="250dp"
+                android:layout_margin="30dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/whatissad"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="20dp"
+                android:maxWidth="400dp"
+                android:textColor="#ffff"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginBottom="20dp"
+                android:text="      ภาวะซึมเศร้า (Depression) อาการเศร้าที่มากเกินควรและนานเกินไป ไม่ดีขึ้นแม้ได้รับกำลังใจหรืออธิบายด้วยเหตุผล
+มักมีความรู้สึกด้อยค่า รู้สึกผิด อยากตายพบบ่อยว่ามีผลกระทบต่อหน้าที่การงานกิจวัตรประจำวันและการสังคมทั่วไป(กรมสุขภาพจิต กระทรวงสาธารณสุข, มปป.)"></TextView>
+
+            <Button
+                android:id="@+id/meaning"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_weight="10"
+                android:background="@drawable/topic"
+                android:text="1. ความหมายเพิ่มเติม"
+                android:textAlignment="viewStart"
+                android:textColor="#FFFFFF"
+                android:textSize="24dp"
+                android:visibility="visible"
+                tools:visibility="visible"></Button>
+
+            <Button
+                android:id="@+id/sadcause"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_weight="10"
+                android:background="@drawable/topic"
+                android:text="2. สาเหตุ"
+                android:textAlignment="viewStart"
+                android:textColor="#FFFFFF"
+                android:textSize="24dp"
+                android:visibility="visible"
+                tools:visibility="visible"></Button>
+
+            <Button
+                android:id="@+id/sadeffect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="10"
+                android:layout_marginHorizontal="20dp"
+                android:background="@drawable/topic"
+                android:text="3. ผลกระทบ"
+                android:textAlignment="viewStart"
+                android:textColor="#FFFFFF"
+                android:textSize="24dp"
+                android:visibility="visible"
+                tools:visibility="visible"></Button>
+
+            <Button
+            android:id="@+id/sedtest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:layout_marginHorizontal="20dp"
+            android:background="@drawable/topic"
+            android:text="4. ทำแบบประเมินซึมเศร้า"
+            android:textAlignment="viewStart"
+            android:textColor="#FFFFFF"
+            android:textSize="24dp"
+            android:layout_marginBottom="20dp"
+            android:visibility="visible"
+            tools:visibility="visible"></Button>
+
+            <Button
+                android:id="@+id/fightproblem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="10"
+                android:layout_marginHorizontal="20dp"
+                android:background="@drawable/topic"
+                android:text="5. การเผชิญปัญหา"
+                android:textAlignment="viewStart"
+                android:textColor="#FFFFFF"
+                android:textSize="24dp"
+                android:layout_marginBottom="20dp"
+                android:visibility="visible"
+                tools:visibility="visible"></Button>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout >

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:fillViewport="true"
+    android:scaleType="fitXY"
+    android:background="@drawable/bgn">
+
+    <ImageButton
+        android:id="@+id/backToCoping"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="left"
+        android:layout_margin="5dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/backbut"
+        android:scaleType="fitXY" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/scrollView1"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:background="@drawable/topic"
+                android:text="การใช้เทคนิคความเงียบ"
+                android:textAlignment="center"
+                android:textColor="#ffff"
+                android:textSize="36dp"></TextView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:layout_margin="30dp"
+                android:maxWidth="500dp"
+                android:maxHeight="200dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/conscious" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#ffff"
+                android:textSize="18dp"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginBottom="20dp"
+                android:text="      การจะสยบความวุ่นวายของจิตใจที่ได้ผลคงต้องอาศัยความเงียบเข้าช่วย โดยมีวิธีการดังนี้
+                \n\n      - เลือกสถานที่ที่สงบเงียบ มีความเป็นส่วนตัวและควรบอกผู้ใกล้ชิดว่าอย่าเพิ่งรบกวนสัก 15 นาที
+                \n\n      - เลือกเวลาที่เหมาะสม เช่น หลังตื่นนอน เวลาพักกลางวันก่อนเข้านอน ฯลฯ
+                \n\n      - นั่งหรือนอนในท่าที่สบายถ้านั่งควรเลือกเก้าอี้ที่มีพนักพิงศีรษะอย่าไขว่ห้างหรือกอดอก
+                \n\n      - หลับตา เพื่อตัดสิ่งรบกวนจากภายนอก
+                \n\n      - หายใจเข้าออกช้า ๆ ลึกๆ
+                \n\n      ทำใจให้เป็นสมาธิ โดยท่องคาถาบทสั้นๆ ซ้ำไปซ้ำมา เช่น พุทโธ พุทโธ หรือจะสวดมนต์บทยาว ๆ ต่อเนื่องกันไปเรื่อย ๆ เช่น สวดพระคาถาชินบัญชร 3-5 จบ เป็นต้น
+                \n\n      ฝึกครั้งละ 10-15 นาที ทุกวัน วันละ 2 ครั้ง แรกๆ ให้เอานาฬิกามาวางตรงหน้า และลืมตาดูเวลาเป็นระยะๆ เมื่อฝึกบ่อยเข้าจะกะเวลาได้อย่างแม่นยำ ไม่ควรใช้นาฬิกาปลุกเพราะเสียงจากนาฬิกาจะทำให้ตกใจเสียสมาธิและรู้สึกหงุดหงิดแทนที่จะสงบ"
+                ></TextView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

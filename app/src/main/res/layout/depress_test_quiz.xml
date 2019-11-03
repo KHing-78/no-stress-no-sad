@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bgn">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/depressQuestion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:textSize="20dp"
+            android:textColor="#ffff"
+            android:padding="20dp"
+            />
+
+        <RadioGroup
+            android:id="@+id/depressAnswerGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="400dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginHorizontal="30dp"
+            android:orientation="vertical">
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content">-->
+
+                <RadioButton
+                    android:id="@+id/depressTestNever"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:width="100dp"
+                    android:textSize="20dp"
+                    android:textColor="#ffff"
+                    android:buttonTint="#ffff"
+                    android:text="@string/btn_never"
+                    />
+
+
+
+<!--            </LinearLayout>-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content">-->
+
+                <RadioButton
+                    android:id="@+id/depressTestSometimes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:textColor="#ffff"
+                    android:buttonTint="#ffff"
+                    android:text="@string/btn_sometimes"/>
+            <RadioButton
+            android:id="@+id/depressTestUsually"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="19dp"
+            android:textColor="#ffff"
+            android:buttonTint="#ffff"
+
+            android:text="@string/btn_usually"/>
+
+                <RadioButton
+                    android:id="@+id/depressTestAlways"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:textColor="#ffff"
+                    android:buttonTint="#ffff"
+                    android:text="@string/btn_everyday"/>
+
+<!--            </LinearLayout>-->
+
+
+
+        </RadioGroup>
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="vertical"-->
+<!--            android:layout_margin="10dp">-->
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="horizontal">-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/depressTestNever"-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:padding="30dp"-->
+<!--                    android:gravity="center"-->
+<!--                    android:layout_margin="20dp"-->
+<!--                    android:textColor="@android:color/white"-->
+<!--                    android:background="@drawable/border_radio"-->
+<!--                    android:text="ไม่มีเลย"/>-->
+<!--                <TextView-->
+<!--                    android:id="@+id/depressTestSometimes"-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:padding="30dp"-->
+<!--                    android:gravity="center"-->
+<!--                    android:layout_margin="20dp"-->
+<!--                    android:textColor="@android:color/white"-->
+<!--                    android:background="@drawable/border_radio"-->
+<!--                    android:text="เป็นบางวัน \n1-7 วัน"/>-->
+
+<!--            </LinearLayout>-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:orientation="horizontal">-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/depressTestUsually"-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:padding="30dp"-->
+<!--                    android:gravity="center"-->
+<!--                    android:layout_margin="20dp"-->
+<!--                    android:textColor="@android:color/white"-->
+<!--                    android:background="@drawable/border_radio"-->
+<!--                    android:text="เป็นบ่อย \nมากกว่า 7 วัน"/>-->
+<!--                <TextView-->
+<!--                    android:id="@+id/depressTestAlways"-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:padding="30dp"-->
+<!--                    android:gravity="center"-->
+<!--                    android:layout_margin="20dp"-->
+<!--                    android:textColor="@android:color/white"-->
+<!--                    android:background="@drawable/border_radio"-->
+<!--                    android:text="เป็นทุกวัน"/>-->
+
+<!--            </LinearLayout>-->
+<!--        </LinearLayout>-->
+        <Button
+            android:id="@+id/btnNextQuestion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="500dp"
+            android:layout_marginHorizontal="10dp"
+            android:text="@string/btn_next" />
+
+    </RelativeLayout>
+
+</LinearLayout>

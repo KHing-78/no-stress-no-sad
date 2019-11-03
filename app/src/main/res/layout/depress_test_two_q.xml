@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgn">
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="แบบคัดกรองภาวะซึมเศร้าด้วย 2 คำถาม (2Q)"
+        android:textColor="@android:color/white"
+        android:textSize="25dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginHorizontal="20dp"/>
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/depress_2q_decription"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="25dp"
+        android:layout_marginHorizontal="30dp"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/depress_2q_1"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="25dp"
+        android:layout_marginHorizontal="40dp"
+        android:textSize="20dp"/>
+    <RadioGroup
+        android:id="@+id/radioDepressTwoQOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginHorizontal="40dp">
+        <RadioButton
+            android:id="@+id/depressTwoQ1Yes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="มี"
+            android:textSize="15dp"
+            android:textColor="@android:color/white"/>
+<!--            android:background="@drawable/button_background_radio"-->
+<!--            android:button="@android:color/holo_green_light"-->
+
+        <RadioButton
+            android:id="@+id/depressTwoQ1No"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_no"
+            android:textSize="15dp"
+            android:textColor="@android:color/white"/>
+<!--            android:background="@drawable/button_background_radio"-->
+<!--            android:button="@android:color/transparent"-->
+
+    </RadioGroup>
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal">-->
+
+<!--        <Button-->
+<!--            android:id="@+id/depressTwoQ1Yes"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_weight="1"-->
+<!--            android:padding="30dp"-->
+<!--            android:gravity="center"-->
+<!--            android:layout_margin="20dp"-->
+<!--            android:textColor="@android:color/white"-->
+<!--            android:background="@drawable/border_radio"-->
+<!--            android:text="มี"-->
+<!--            android:textSize="25dp"/>-->
+<!--        <Button-->
+<!--            android:id="@+id/depressTwoQ1No"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_weight="1"-->
+<!--            android:padding="30dp"-->
+<!--            android:gravity="center"-->
+<!--            android:layout_margin="20dp"-->
+<!--            android:textColor="@android:color/white"-->
+<!--            android:background="@drawable/border_radio"-->
+<!--            android:text="ไม่มี"-->
+<!--            android:textSize="25dp"/>-->
+
+<!--    </LinearLayout>-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/depress_2q_2"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginHorizontal="40dp"/>
+    <RadioGroup
+        android:id="@+id/radioDepressTwoQTwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginHorizontal="40dp">
+        <RadioButton
+            android:id="@+id/depressTwoQ2Yes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_yes"
+            android:textSize="15dp"
+            android:textColor="@android:color/white"/>
+<!--            android:background="@drawable/button_background_radio"-->
+<!--            android:button="@android:color/transparent"-->
+
+        <RadioButton
+            android:id="@+id/depressTwoQ2No"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_no"
+            android:textSize="15dp"
+            android:textColor="@android:color/white"/>
+<!--            android:background="@drawable/button_background_radio"-->
+<!--            android:button="@android:color/transparent"-->
+
+    </RadioGroup>
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal">-->
+
+<!--        <Button-->
+<!--            android:id="@+id/depressTwoQ2Yes"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_weight="1"-->
+<!--            android:padding="30dp"-->
+<!--            android:gravity="center"-->
+<!--            android:layout_margin="20dp"-->
+<!--            android:textColor="@android:color/white"-->
+<!--            android:background="@drawable/border_radio"-->
+<!--            android:text="มี"-->
+<!--            android:textSize="25dp"/>-->
+<!--        <Button-->
+<!--            android:id="@+id/depressTwoQ2No"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_weight="1"-->
+<!--            android:padding="30dp"-->
+<!--            android:gravity="center"-->
+<!--            android:layout_margin="20dp"-->
+<!--            android:textColor="@android:color/white"-->
+<!--            android:background="@drawable/border_radio"-->
+<!--            android:text="ไม่มี"-->
+<!--            android:textSize="25dp"/>-->
+
+<!--    </LinearLayout>-->
+    <Button
+        android:id="@+id/btnNextQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+
+        android:text="@string/btn_next" />
+
+</LinearLayout>

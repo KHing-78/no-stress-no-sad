@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:fillViewport="true"
+    android:scaleType="fitXY"
+    android:background="@drawable/bgn">
+
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_margin="10dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/exit"
+        android:scaleType="fitXY" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/scrollView1"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:layout_marginHorizontal="20dp"
+                android:background="@drawable/topic"
+                android:text="อยากอารมณ์ดีใช่ไหม?"
+                android:textAlignment="center"
+                android:textColor="#ffff"
+                android:textSize="36dp"></TextView>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="10dp"
+                android:stretchColumns="1">
+
+                <RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+
+                            android:layout_marginVertical="20dp"
+                            android:text="ความหมายความเครียด"
+                            android:textColor="#ffff"
+                            android:textSize="24dp" />
+
+                        <Button
+                            android:id="@+id/videoView1"
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:background="@drawable/clip1" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginVertical="20dp"
+                            android:text="ความหมายของซึมเศร้า"
+                            android:textColor="#ffff"
+                            android:textSize="24dp" />
+
+
+                        <Button
+                            android:id="@+id/videoView2"
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:background="@drawable/clip2" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginVertical="20dp"
+                            android:text="การนวดและการฝึกหายใจ"
+                            android:textColor="#ffff"
+                            android:textSize="24dp" />
+
+                        <Button
+                            android:id="@+id/videoView6"
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:background="@drawable/clip6" />
+
+                        <Button
+                            android:id="@+id/videoView7"
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:layout_marginVertical="20dp"
+                            android:background="@drawable/clip7"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginVertical="20dp"
+                            android:text="วีดีโอตลก"
+                            android:textColor="#ffff"
+                            android:textSize="24dp" />
+
+                        <Button
+                            android:id="@+id/videoView3"
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:background="@drawable/clip3"/>
+                        <Button
+                            android:id="@+id/videoView4"
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:layout_marginVertical="20dp"
+                            android:background="@drawable/clip4"/>
+
+                        <Button
+                            android:id="@+id/videoView5"
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:layout_marginBottom="20dp"
+                            android:background="@drawable/clip5"/>
+
+
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+            </TableLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
+

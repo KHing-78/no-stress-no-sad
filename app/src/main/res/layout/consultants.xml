@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:fillViewport="true"
+    android:scaleType="fitXY"
+    android:background="@drawable/bgn">
+
+    <Button
+        android:id="@+id/backToCoping"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="left"
+        android:layout_margin="5dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/backbut"
+        android:scaleType="fitXY" />
+
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_margin="10dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/exit"
+        android:scaleType="fitXY" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/scrollView1"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/topic"
+                android:text="3. การหาที่ปรึกษาและสื่อสารเกี่ยวกับความเครียด"
+                android:textAlignment="center"
+                android:textColor="#ffff"
+                android:textSize="24sp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#ffff"
+                android:textSize="18dp"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginBottom="20dp"
+                android:text="      การมีแหล่งสนับสนุนเป็นอีกปัจจัยหนึ่งที่ช่วยให้บุคคลสามารถเผชิญความเครียดได้อย่างเหมาะสม การพูดคุยหรือระบายออกมาหรือพูดถึงปัญหาหรือสิ่งกระตุ้นที่ก่อให้เกิดความเครียดกับคนที่สนิทหรือไว้วางใจฟังจะช่วยให้บุคคลปรับตัวได้หรือยับยั้งไม่ให้ร่างกายมีปฏิกิริยาตอบสนองสู่ระยะที่รุนแรง นอกจากนี้การระบายความรู้สึกในสุดบันทึก (Journal writing) อาจช่วยได้"
+                ></TextView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

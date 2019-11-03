@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:fillViewport="true"
+    android:scaleType="fitXY"
+    android:background="@drawable/bgn">
+
+    <ImageButton
+        android:id="@+id/backToConscious"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="left"
+        android:layout_margin="5dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/backbut"
+        android:scaleType="fitXY" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/scrollView1"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:background="@drawable/topic"
+                android:text="การนวดคลายเครียดด้วยตนเอง"
+                android:textAlignment="center"
+                android:textColor="#ffff"
+                android:textSize="36dp"></TextView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:layout_margin="30dp"
+                android:maxWidth="500dp"
+                android:maxHeight="200dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/coping" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#ffff"
+                android:textSize="18dp"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginBottom="20dp"
+                android:text="      การนวดเป็นวิธีหนึ่งที่คลายเครียดได้ดี เป็นวิธีที่ง่าย สะดวกสามารถทำได้ทุกเวลา โดยหลักการนวดจะช่วยผ่อนคลายกล้ามเนื้อกระตุ้นการไหลเวียนของเลือด ทำให้รู้สึกปลอดโปร่ง โล่งสบายตัว ทำให้หายเครียดและลดอาการเจ็บป่วยต่างๆลงได้ เหมาะสำหรับคนที่มีอาการปวดศีรษะ ปวดเมื่อยบริเวณต้นคอไหล่และหลัง
+                \n\nข้อควรระวังในการนวด \n      ไม่ควรนวดขณะที่มีไข้กล้ามเนื้อบริเวณนั้นอักเสบหรือเป็นโรคผิวหนังและควรตัดเล็บตนเองให้สั้นทุกครั้งก่อนลงมือนวด โดยใช้เวลากดแต่ละครั้ง 10 วินาที และใช้เวลาปล่อยนานกว่า การกดแต่ละจุดนวดซ้ำ 3-5 ครั้ง
+                \n\nหลักการนวดที่ถูกวิธี \n       การกดให้ใช้ปลายนิ้วที่ถนัด ได้แก่ นิ้วหัวแม่มือ นิ้วชี้ หรือนิ้วกลาง ในที่นี้การนวดจะใช้การกด และการปล่อยเป็นส่วนใหญ่
+                \n\nตำแหน่งหรือจุดนวด"
+                ></TextView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:maxHeight="200dp"
+                android:src="@drawable/m1"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#ffff"
+                android:textSize="18dp"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginBottom="20dp"
+                android:text="จุดกึ่งกลางระหว่างคิ้ว ใช้นิ้วที่ถนัด กด 3 - 5 ครั้ง"
+                ></TextView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:maxHeight="200dp"
+                android:src="@drawable/m2"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#ffff"
+                android:textSize="18dp"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginBottom="20dp"
+                android:text="จจุดใต้หัวคิ้ว ใช้ปลายนิ้วที่ถนัดกด 3 - 5 ครั้ง"
+                ></TextView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:maxHeight="200dp"
+                android:src="@drawable/m3"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#ffff"
+                android:textSize="18dp"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginBottom="20dp"
+                android:text="จุดขอบกระดูกท้ายทอย จะมีอยู่ด้วยกัน 3 จุด\nจุดกลางให้ใช้นิ้วหัวแม่มือ กด 3- 5 ครั้ง ส่วนจุดสองจุด ด้านข้างให้ใช้วิธีการประสานมือบริเวณท้ายทอยแล้วใช้นิ้วหัวแม่มือทั้งสองข้างกดจุดพร้อมๆ กัน 3-5 ครั้ง"
+                ></TextView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:maxHeight="200dp"
+                android:src="@drawable/m4"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#ffff"
+                android:textSize="18dp"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginBottom="20dp"
+                android:text="บริเวณต้นคอ ประสานมือบริเวณท้ายทอย ใช้นิ้วหัวแม่มือทั้งสองข้าง กดตามแนวสองข้างของกระดูกต้นคอโดยกดไล่จากบริเวณตีนผมลงมาถึง บริเวณบ่า 3 -5 ครั้ง "
+                ></TextView>
+
+            <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:maxHeight="200dp"
+            android:src="@drawable/m5"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#ffff"
+                android:textSize="18dp"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginBottom="20dp"
+                android:text="บริเวณบ่าใช้ปลายนิ้วมือขวาบีบไหล่ซ้าย ไล่จากบ่าเข้าหาต้นคอใช้ปลายนิ้วมือซ้ายบีบไหล่ขวา ไล่จาก บ่า เข้าหาต้นคอ ทำซ้ำ 3-5 ครั้ง"
+                ></TextView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:maxHeight="200dp"
+                android:src="@drawable/m6"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#ffff"
+                android:textSize="18dp"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginBottom="20dp"
+                android:text="บริเวณบ่าด้านหน้า ใช้นิ้วหัวแม่มือกดจุดใต้กระดูกไหปลาร้าจุดต้นแขนและจุดเหนือรักแร้ของบ่าซ้ายใช้ นิ้วแม่มือซ้ายกดจุดเดียวกันที่บ่าขวาทำซ้ำ 3-5 ครั้ง"
+                ></TextView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:maxHeight="200dp"
+                android:src="@drawable/m7"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#ffff"
+                android:textSize="18dp"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginBottom="20dp"
+                android:text="บริเวณบ่าด้านหลังใช้นิ้วที่ถนัดของมือขวาอ้อมไปกดจุดบนและจุดกลางของกระดุกสะบักและจุด รักแร้  ด้านหลังของบ่าซ้ายใช้นิ้วที่ถนัดของมือซ้ายกดจุดเดียวกันที่บ่าขวา ทำซ้ำ 3-5 ครั้ง"
+                ></TextView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

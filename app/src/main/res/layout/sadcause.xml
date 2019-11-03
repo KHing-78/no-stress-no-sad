@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:fillViewport="true"
+    android:scaleType="fitXY"
+    android:background="@drawable/bgn">
+
+    <Button
+        android:id="@+id/backToWhat"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="10dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/backbut"
+        android:scaleType="fitXY" />
+
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_margin="10dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/exit"
+        android:scaleType="fitXY" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/scrollView1"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. สาเหตุ"
+                android:layout_marginTop="40dp"
+                android:layout_gravity="center"
+                android:background="@drawable/topic"
+                android:textColor="#ffff"
+                android:textSize="36dp"></TextView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:maxWidth="500dp"
+                android:maxHeight="250dp"
+                android:layout_margin="30dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/sadcaues" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#ffff"
+                android:textSize="20dp"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginBottom="20dp"
+                android:text="1. ความผิดปกติของสารสื่อประสาท\nในสมองที่ชื่อว่า สารซีโรโทนิน(Serotonin) นอร์อดรีนาลีน (Noradrenaline) และ\nโดปามีน (Dopamine)
+\n\n2. ปัจจัยกระตุ้นทางด้านจิตสังคม เช่น การสูญเสีย การจากพรากสิ่งอันเป็นที่รักความกดดัน ปัญหาชีวิต (สอบตก อกหัก คนรักทอดทิ้ง ตกงาน ฯลฯ)
+\n\n3. ปัจจัยทางด้านเพศ พบว่าเพศหญิงจะมีโอกาสเป็นโรคซึมเศร้ามากกว่าเพศชายถึง 2 เท่า
+\n\n4. พื้นฐานดั้งเดิม การเลี้ยงดูของพ่อแม่ อิทธิพลจากคนรอบข้าง ลักษณะนิสัย ได้แก่ เป็นคนอ่อนไหวง่าย มองโลกในแง่ลบ เป็นต้น (คลินิกสุขภาพจิตนายแพทย์เจษฎา, 2559)"></TextView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

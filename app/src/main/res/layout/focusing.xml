@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:fillViewport="true"
+    android:scaleType="fitXY"
+    android:background="@drawable/bgn">
+
+    <ImageButton
+        android:id="@+id/backToConscious"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="left"
+        android:layout_margin="5dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/backbut"
+        android:scaleType="fitXY" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/scrollView1"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:background="@drawable/topic"
+                android:text="ฝึก Focusing / Labeling"
+                android:textAlignment="center"
+                android:textColor="#ffff"
+                android:textSize="36dp"></TextView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:layout_margin="30dp"
+                android:maxWidth="500dp"
+                android:maxHeight="200dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/conscious" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#ffff"
+                android:textSize="18dp"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginBottom="20dp"
+                android:text="      - เมื่อฝึก Body scan แล้ว ให้หลับตา หายใจเข้าออก ยาวๆ 3 ครั้ง
+                \n\n      - ให้คิดย้อนไปถึงเหตุการณ์ที่ผ่านมาในช่วง 1 สัปดาห์ที่ทำให้รู้สึกไม่พอใจพยายามทบทวนเกี่ยวกับเหตุการณ์นั้นให้ได้มากที่สุด
+                \n\n      - การทบทวนเรื่องราวทำให้จิตตอบโต้เหมือนกลับไปอยู่ในเหตุการณ์ให้กลับมารับรู้ลมหายใจและสำรวจความรู้สึกที่เกิดขึ้นกับร่างกายส่วนต่างๆ เช่น ร้อนที่ใบหน้า แน่นหน้าอก หัวใจเต้นแรง หายใจไม่สะดวก เป็นต้น ใช้เวลา 3 นาที
+                \n\n      - ให้เฝ้าดูความรู้สึกทางกายในส่วนที่ชัดเจนที่สุดต่อเนื่องอีก 1 นาที แล้วจะพบว่าความรู้สึกจะค่อยๆ เปลี่ยนแปลงไปและอยู่กับความรู้สึกนั้นโดยไม่ต้องตอบโต้หรือเป็นทุกข์และปล่อยวางได้
+                \n\n      - กรณีไม่มีความรู้สึกทางกายให้สำรวจความคิดในใจแล้วติดป้ายความคิด เช่น ขุ่นเคืองน้อยใจ กลัว เป็นต้น แล้วจะเห็นการเกิดดับของความคิดเมื่อไม่คิดตาม ใจจึงเป็นกลาง หรือปล่อยวางความคิดนั้น.
+                \n\n      - ทำสมาธิแบบลืมตา 1 นาที"
+                ></TextView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

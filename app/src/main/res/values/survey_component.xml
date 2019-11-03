@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!-- material for common survey-->
+    <string name="radio_gender_male">เพศชาย</string>
+    <string name="radio_gender_female">เพศหญิง</string>
+    <string name="age_text">อายุ</string>
+    <string name="faculty_text">คณะ</string>
+    <string name="btn_next">ถัดไป</string>
+    <string name="btn_start">เริ่มทำแบบประเมิน</string>
+    <string-array name="gender">
+        <item>male</item>
+        <item>female</item>
+    </string-array>
+
+    <string-array name="faculties">
+            <item>คณะวิทยาศาสตร์</item>
+            <item>คณะมนุษยศาสตร์และสังคมศาสตร์</item>
+            <item>คณะเทคโนโลยี</item>
+            <item>คณะบริหารธุรกิจและการบัญชี</item>
+            <item>คณะนิติศาสตร์</item>
+            <item>คณะเศรษฐศาสตร์</item>
+            <item>วิทยาลัยการปกครองท้องถิ่น</item>
+    </string-array>
+
+
+
+    <!-- material for stress survey-->
+    <string name="stress_topic">แบบวัดความเครียด กรมสุขภาพจิต SPST-20</string>
+    <string name="stress_description">คำชี้แจง : ในระยะ 6 เดือนที่ผ่านมามีเหตุการณ์ในข้อใด เกิดขึ้นกับตัวคุณบ้าง และเลือกระดับความเครียดที่คุณรู้สึก ถ้าข้อไหนไม่ได้เกิดขึ้นให้เลือกคะแนน 0</string>
+    <string name="stress_score_given">   0	หมายถึง ไม่เกิดเหตุการณ์นี้\n1  	หมายถึง 	ไม่รู้สึกเครียด\n2 	หมายถึง 	รู้สึกเครียดเล็กน้อย\n3	หมายถึง 	รู้สึกเครียดปานกลาง\n4 	หมายถึง 	รู้สึกเครียดมาก\n5 	หมายถึง 	รู้สึกเครียดมากที่สุด</string>
+    <string name="radio_score_0">0</string>
+    <string name="radio_score_1">1</string>
+    <string name="radio_score_2">2</string>
+    <string name="radio_score_3">3</string>
+    <string name="radio_score_4">4</string>
+    <string name="radio_score_5">5</string>
+    <integer-array name="survey_score">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </integer-array>
+
+<!-- material for depress survey-->
+    <string name="btn_yes">มี</string>
+    <string name="btn_no">ไม่มี</string>
+    <string name="btn_never">ไม่มีเลย</string>
+    <string name="btn_sometimes">เป็นบางวัน 1-7 วัน</string>
+    <string name="btn_usually">เป็นบ่อย มากกว่า 7 วัน</string>
+    <string name="btn_everyday">เป็นทุกวัน</string>
+    <string-array name="sequences">
+        <item>never</item>
+        <item>sometimes</item>
+        <item>usually</item>
+        <item>everyday</item>
+    </string-array>
+    <string-array name="answer">
+        <item>yes</item>
+        <item>no</item>
+    </string-array>
+    <string name="depress_2q_decription">คำอธิบาย : เลือกคำตอบที่ตรงกับคุณใน 2 สัปดาห์ที่ผ่านมา</string>
+    <string name="depress_2q_1">คุณรู้สึก หดหู่  เศร้า หรือท้อแท้สิ้นหวังหรือไม่</string>
+    <string name="depress_2q_2">คุณรู้สึก  เบื่อ ทำอะไรก็ไม่เพลิดเพลินหรือไม่</string>
+
+<!-- material for results -->
+    <string name="results">ผลการประเมิน</string>
+    <string name="encounter">การเผชิญปัญหา</string>
+    <string name="contact_info">ช่องทางการติดต่อ</string>
+
+    !-- material for depress survey-->
+    <string name="depress_topic">แบบประเมินภาวะซึมเศร้าด้วย 9 คำถาม (9Q)</string>
+    <string name="depress_description">คำชี้แจง : ใน 2 สัปดาห์ที่ผ่านมารวมวันนี้ คุณมีอาการเหล่านี้บ่อยแค่ไหน ให้เลือกคำตอบต่อไปนี้ คือ ไม่มีเลย, เป็นบางวัน 1-7 วัน, เป็นบ่อย > 7 วัน และ เป็นทุกวัน</string>
+
+</resources>

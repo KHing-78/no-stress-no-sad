@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "816927226078",
+    "firebase_url": "https://nursing-depression-stress.firebaseio.com",
+    "project_id": "nursing-depression-stress",
+    "storage_bucket": "nursing-depression-stress.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:816927226078:android:0b011b0c1c57726ac22a4f",
+        "android_client_info": {
+          "package_name": "nursing.depression.no_stress_no_sad_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "816927226078-tdt9veuojf5b09nrkmdqq97o91e23og3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "nursing.depression.no_stress_no_sad_app",
+            "certificate_hash": "7ede46a4a3f995b082293ac248dcf4f45e6dbf49"
+          }
+        },
+        {
+          "client_id": "816927226078-eai30u0sgqfga7mi6jdimmiqlhoa0243.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_RlWyL586fJMs-RMa9xbSgtgVRxSZC0I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "816927226078-eai30u0sgqfga7mi6jdimmiqlhoa0243.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

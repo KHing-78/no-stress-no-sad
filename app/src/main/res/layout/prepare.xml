@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:fillViewport="true"
+    android:scaleType="fitXY"
+    android:background="@drawable/bgn">
+
+    <ImageButton
+        android:id="@+id/backToC"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="left"
+        android:layout_margin="5dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/backbut"
+        android:scaleType="fitXY" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/scrollView1"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:background="@drawable/topic"
+                android:text="2. เตรียมการในการแสดงอารมณ์"
+                android:textAlignment="center"
+                android:textColor="#ffff"
+                android:textSize="30dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#ffff"
+                android:textSize="18dp"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginBottom="20dp"
+                android:text="      การทบทวนสถานการณ์ที่นำไปสู่อารมณ์ จะทราบว่าเมื่อกระตุ้นทางอารมณ์ ตัวเราเองมีการแสดงออกทางอารมณ์ที่ส่งผลในทางลบอย่างไร ควรฝึกตนเองให้ตั้งใจจะทำและจะไม่ทำสิ่งใดเป็นการปรับการแสดงออกให้ต่างไปจากเดิมและเป็นการแสดงออกที่ส่งผลดีกับตัวเรา หากเกิดสถานการณ์เช่นนั้นขึ้นอีก ในขั้นตอนนี้ต้องอาศัยการรู้เท่าทันอารมณ์ของตนเองหากเราไม่รู้ว่าเกิดอารมณ์ขึ้น ปล่อยให้ถูกกระตุ้นจนระดับอารมณ์สูงมักแสดงออกตามความเคยชินเดิม"
+                ></TextView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

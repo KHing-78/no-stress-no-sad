@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:fillViewport="true"
+    android:scaleType="fitXY"
+    android:background="@drawable/bgn">
+
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_margin="10dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/exit"
+        android:scaleType="fitXY" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/scrollView1"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5. การเผชิญปัญหา"
+                android:layout_marginTop="40dp"
+                android:layout_marginHorizontal="20dp"
+                android:layout_gravity="center"
+                android:background="@drawable/topic"
+                android:textColor="#ffff"
+                android:textSize="36dp"></TextView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:layout_margin="30dp"
+                android:maxWidth="500dp"
+                android:maxHeight="200dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/coping" />
+
+            <Button
+                android:id="@+id/consciousBut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_weight="10"
+                android:background="@drawable/topic"
+                android:text="1. สติบำบัด"
+                android:textAlignment="viewStart"
+                android:textColor="#FFFFFF"
+                android:textSize="24dp"
+                android:visibility="visible"></Button>
+
+            <Button
+                android:id="@+id/massageBut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_weight="10"
+                android:background="@drawable/topic"
+                android:text="2. การนวดคลายเครียดด้วยตนเอง"
+                android:textAlignment="viewStart"
+                android:textColor="#FFFFFF"
+                android:textSize="24dp"
+                android:visibility="visible"
+                ></Button>
+
+            <Button
+                android:id="@+id/breatheBut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="10"
+                android:layout_marginHorizontal="20dp"
+                android:background="@drawable/topic"
+                android:text="3. การฝึกการหายใจ"
+                android:textAlignment="viewStart"
+                android:textColor="#FFFFFF"
+                android:textSize="24dp"
+                android:visibility="visible"
+                ></Button>
+
+            <Button
+                android:id="@+id/techniqueBut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="10"
+                android:layout_marginHorizontal="20dp"
+                android:background="@drawable/topic"
+                android:text="4. การใช้เทคนิคความเงียบ"
+                android:textAlignment="viewStart"
+                android:textColor="#FFFFFF"
+                android:textSize="24dp"
+                android:visibility="visible"
+                ></Button>
+
+            <Button
+                android:id="@+id/manageBut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="10"
+                android:layout_marginHorizontal="20dp"
+                android:background="@drawable/topic"
+                android:text="5. การจัดการกับปัญหา"
+                android:textAlignment="viewStart"
+                android:textColor="#FFFFFF"
+                android:textSize="24dp"
+                android:visibility="visible"
+                ></Button>
+
+            <Button
+                android:id="@+id/controllBut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="10"
+                android:layout_marginHorizontal="20dp"
+                android:background="@drawable/topic"
+                android:text="6. การจัดการอารมณ์"
+                android:textAlignment="viewStart"
+                android:textColor="#FFFFFF"
+                android:textSize="24dp"
+                android:visibility="visible"
+                android:layout_marginBottom="20dp"
+                ></Button>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

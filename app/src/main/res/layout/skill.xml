@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:fillViewport="true"
+    android:scaleType="fitXY"
+    android:background="@drawable/bgn">
+
+    <Button
+        android:id="@+id/backToCoping"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="left"
+        android:layout_margin="5dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/backbut"
+        android:scaleType="fitXY" />
+
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_margin="10dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/exit"
+        android:scaleType="fitXY" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/scrollView1"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:layout_marginHorizontal="20dp"
+                android:background="@drawable/topic"
+                android:text="4. การฝึกทักษะเผชิญและแก้ไขปัญหาอย่างเป็นระบบ"
+                android:textAlignment="center"
+                android:textColor="#ffff"
+                android:textSize="24dp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#ffff"
+                android:textSize="18dp"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginBottom="20dp"
+                android:text="      การแก้ไขปัญหาอย่างเป็นระบบจะช่วยให้บุคคลเข้าใจและคลี่คลายปัญหาได้ อันมีผลให้ความเครียดลดน้อยลงหรือไม่มีความเครียดเนื่องจากมีการแก้ไขปัญหาก่อนหน้าแล้วการแก้ปัญหาอย่างเป็นระบบมี 6 ขั้นตอน ดังนี้
+                \n      4.1. ทำความเข้าใจปัญหา
+                \n      4.2.พิจารณาสาเหตุและปัจจัยที่เกี่ยวข้องพร้อมตั้งเป้าหมายในการแก้ไขปัญหา
+                \n      4.3. พิจารณาทางเลือกหลายทางเลือกในการแก้ไขปัญหา
+                \n      4.4. พิจารณาทางเลือกแต่ละทางเลือกมีข้อดีข้อเสียอย่างไรและเลือกทางเลือกที่เหมาะสมกับตนมากที่สุด
+                \n      4.5. ลงมือแก้ไขปัญหา
+                \n      4.6. ติดตามประเมินผลถ้าเลือกทางเลือกที่หนึ่งไม่ได้ผลให้เลือกทางเลือกที่สองเพื่อนำมาลงมือแก้ไขปัญหาต่อไป"
+                ></TextView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

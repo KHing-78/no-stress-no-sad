@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:fillViewport="true"
+    android:scaleType="fitXY"
+    android:background="@drawable/bgn">
+
+    <ImageButton
+        android:id="@+id/backToCoping"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="left"
+        android:layout_margin="5dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/backbut"
+        android:scaleType="fitXY" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/scrollView1"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:background="@drawable/topic"
+                android:text="การจัดการอารมณ์"
+                android:textAlignment="center"
+                android:textColor="#ffff"
+                android:textSize="36dp"></TextView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:layout_margin="30dp"
+                android:maxWidth="500dp"
+                android:maxHeight="200dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/conscious" />
+
+            <Button
+                android:id="@+id/reviewBut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_weight="10"
+                android:background="@drawable/topic"
+                android:text="1. ทบทวนการแสดงออกทางอารมณ์ของตนเอง"
+                android:textAlignment="viewStart"
+                android:textColor="#FFFFFF"
+                android:textSize="24dp"
+                android:visibility="visible"></Button>
+
+            <Button
+                android:id="@+id/preBut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_weight="10"
+                android:background="@drawable/topic"
+                android:text="2. เตรียมการในการแสดงอารมณ์"
+                android:textAlignment="viewStart"
+                android:textColor="#FFFFFF"
+                android:textSize="24dp"
+                android:visibility="visible"></Button>
+
+            <Button
+                android:id="@+id/controllMineBut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_weight="10"
+                android:background="@drawable/topic"
+                android:text="3. ฝึกสติ"
+                android:textAlignment="viewStart"
+                android:textColor="#FFFFFF"
+                android:textSize="24dp"
+                android:visibility="visible"></Button>
+
+            <Button
+                android:id="@+id/rateBut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_weight="10"
+                android:background="@drawable/topic"
+                android:text="4. ประเมินสถานการณ์และอารมณ์"
+                android:textAlignment="viewStart"
+                android:textColor="#FFFFFF"
+                android:textSize="24dp"
+                android:visibility="visible"></Button>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

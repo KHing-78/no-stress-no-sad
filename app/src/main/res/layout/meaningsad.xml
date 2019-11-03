@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:fillViewport="true"
+    android:scaleType="fitXY"
+    android:background="@drawable/bgn">
+
+    <Button
+        android:id="@+id/backToWhat"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="10dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/backbut"
+        android:scaleType="fitXY" />
+
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_margin="10dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/exit"
+        android:scaleType="fitXY" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/scrollView1"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. ความหมายเพิ่มเติม"
+                android:layout_marginTop="40dp"
+                android:layout_gravity="center"
+                android:background="@drawable/topic"
+                android:textColor="#ffff"
+                android:textSize="36dp"></TextView>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="30dp"
+                android:adjustViewBounds="true"
+                android:maxWidth="250dp"
+                android:maxHeight="250dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/whatissad" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#ffff"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginBottom="20dp"
+                android:textSize="20dp"
+                android:text="          อารมณ์เศร้า (Sadness)เป็นอารมณ์ด้านลบซึ่งทางจิตวิทยาถือว่าเป็นสภาวะอารมณ์ที่เกิดขึ้นเป็นครั้งคราวกับบุคคลทั่วไปทุกเพศทุกวัยเมื่อเผชิญกับ การสูญเสียการพลาดในสิ่งที่หวัง การถูกปฏิเสธ และมักเกิดขึ้นร่วมกับความรู้สึกสูญเสียผิดหวัง หรือความรู้สึกอึดอัดทรมาน (นฤมล จินตพัฒนากิจ, มปป.)
+\n      ภาวะซึมเศร้า (Depression) อาการเศร้าที่มากเกินควร และนานเกินไปไม่ดีขึ้นแม้ได้รับกำลังใจหรืออธิบายด้วยเหตุผล มักมีความรู้สึกด้อยค่า รู้สึกผิด อยากตาย พบบ่อยว่ามีผลกระทบต่อหน้าที่การงานกิจวัตรประจำวันและการสังคมทั่วไป (กรมสุขภาพจิต กระทรวงสาธารณสุข, มปป.)
+\n      โรคซึมเศร้า (Depression Disorder) คือ ภาวะทางจิตเวชชนิดหนึ่งที่มีสาเหตุหลักเกิดจากความผิดปกติของสารเคมีในสมองทำให้มีความผิดทางอารมณ์ ความรู้สึก พฤติกรรมและสุขภาพกายแต่สามารถรักษาให้หายได้ โดยการใช้ยา การรักษาทางจิตใจ หรือทั้งสองอย่าง(มาโนช หล่อตระกูล, 2561)"></TextView>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

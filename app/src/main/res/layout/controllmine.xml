@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:fillViewport="true"
+    android:scaleType="fitXY"
+    android:background="@drawable/bgn">
+
+    <ImageButton
+        android:id="@+id/backToC"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="left"
+        android:layout_margin="5dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/backbut"
+        android:scaleType="fitXY" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/scrollView1"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:background="@drawable/topic"
+                android:text="3. ฝึกสติ"
+                android:textAlignment="center"
+                android:textColor="#ffff"
+                android:textSize="36sp"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#ffff"
+                android:textSize="18dp"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginBottom="20dp"
+                android:text="      เมื่อเข้าไปในสถานการณ์ที่กระตุ้นอารมณ์ต้องตั้งสติให้รู้ตัวว่าเรากำลังมีอารมณ์เกิดขึ้น อารมณ์ที่เกิดขึ้นจะทำให้เราแสดงออกเหมือนเดิมและได้รับผลลัพธ์เช่นเดิม การตั้งสติที่จะไม่ทำอย่างที่เคยทำและจะได้แสดงออกอย่างที่เราคิดเตรียมการเอาไว้การฝึกสติเป็นสิ่งที่ควรปฏิบัติอยู่เสมอให้สามารถติดตามอารมณ์ของตัวเราเองไม่ว่าอารมณ์ร้ายหรือดีเมื่อเข้าสู่สถานการณ์ทางอารมณ์จะทำให้มีความไวต่ออารมณ์มากขึ้น"
+                ></TextView>
+
+        </LinearLayout>
+    </ScrollView></LinearLayout>

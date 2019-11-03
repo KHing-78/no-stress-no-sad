@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@drawable/bgn">
+
+    <Button
+        android:id="@+id/backToMainPage"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="left"
+        android:layout_margin="10dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/backbut"
+        android:scaleType="fitXY" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/scrollView1"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ความเครียด"
+                android:layout_marginTop="50dp"
+                android:layout_gravity="center"
+                android:textColor="#ffff"
+                android:textSize="48dp"></TextView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:maxWidth="400dp"
+                android:maxHeight="300dp"
+                android:layout_margin="30dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/stressinfo"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:maxWidth="400dp"
+                android:textColor="#ffff"
+                android:textSize="18dp"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginBottom="10dp"
+                android:text="      ความเครียดเป็นภาวะที่ร่างกายเสียสมดุลแล้วมีปฏิกิริยาตอบสนองของร่างกายต่อสิ่งกระตุ้นความเครียดโดยร่างกายจะมีปฏิกิริยาโต้ตอบความเครียด 3 ระยะ ได้แก่
+\n      ระยะเตือน:  ระยะเริ่มต้นที่มีการตอบสนองของร่างกายเรียกว่า ปฏิกิริยาสู้หรือหนี \n      ระยะต่อต้าน:  ระยะที่มีการปรับตัวอย่างแท้จริง จะทำให้อาการดีขึ้น
+แต่หากภาวะเครียดยังคงรุนแรง ร่างกายต่อต้านไม่ไหวก็จะเข้าสู่ระยะหมดกำลัง
+\n      ระยะหมดกำลัง:   ระยะที่ปรับตัวไม่ได้ จะทำให้ระบบต่างๆ ของร่างกายอ่อนแอลง
+จนเกิดโรคที่เกิดจากความเครียดได้"></TextView>
+
+            <Button
+                android:id="@+id/causeBut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_weight="10"
+                android:background="@drawable/topic"
+                android:text="1. สาเหตุ"
+                android:textAlignment="viewStart"
+                android:textColor="#FFFFFF"
+                android:textSize="24dp"
+                android:visibility="visible"
+                tools:visibility="visible"></Button>
+
+            <Button
+                android:id="@+id/effectBut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_weight="10"
+                android:background="@drawable/topic"
+                android:text="2. ผลกระทบ"
+                android:textAlignment="viewStart"
+                android:textColor="#FFFFFF"
+                android:textSize="24dp"
+                android:visibility="visible"
+                tools:visibility="visible"></Button>
+
+            <Button
+            android:id="@+id/stBut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:layout_marginHorizontal="20dp"
+            android:background="@drawable/topic"
+            android:text="3. ทำแบบประเมินความเครียด"
+            android:textAlignment="viewStart"
+            android:textColor="#FFFFFF"
+            android:textSize="24dp"
+            android:visibility="visible"
+            tools:visibility="visible"></Button>
+
+            <Button
+                android:id="@+id/copingBut"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="10"
+                android:layout_marginHorizontal="20dp"
+                android:background="@drawable/topic"
+                android:text="4. การเผชิญปัญหา"
+                android:textAlignment="viewStart"
+                android:textColor="#FFFFFF"
+                android:textSize="24dp"
+                android:layout_marginBottom="20dp"
+                android:visibility="visible"
+                tools:visibility="visible"></Button>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout >
